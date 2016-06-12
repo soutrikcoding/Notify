@@ -1,5 +1,5 @@
+import tkinter as tk
 
-from gi.repository import Notify
+window = tk.Tk()
+window.mainloop()
 
-Notify.init("App Name")
-Notify.Notification.new("The link is down").show()
